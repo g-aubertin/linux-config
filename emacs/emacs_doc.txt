@@ -1,0 +1,74 @@
+#### Emacs documentation ####
+
+--(help)
+C-h a : help on given command
+C-h k Answers “what does this key combination do?”
+C-h v : describe variable (by its name)
+C-x c-e : evaluate the expression pointed by the cursor (the point)
+C-g : cancel current command in mini-buffer
+
+--(edition)
+C-_ : undo
+C-SPC : start mark region. use arrow to select area.
+C-u C-SPC : go back to last marked region
+Alt­w : Copy
+C­w : Cut
+C­y : Paste
+C­s : Forward I-search (then C-w to select the next word)
+C­r : Backward I-search
+Alt­% : Replace
+M-% : Search and replace (then SPC - one by one, !- all the occurences)
+C­x b : switching buffers
+C-k : kill to end of line
+M-d : kill to end of word
+M-delete/back : kill to start of word
+M-g g : goto line
+M-u : changes following word to upper case
+M-l : changes following word to upper case
+
+--(buffers)
+C-x C-b : buffer list display in new buffer
+C-x k : kill current buffer
+C-x o : switch buffer
+M-x term : start a term (shell) of your choice in the buffer
+
+
+--(regexp) 
+C­Alt­s : regexp forward search
+C­Alt­r : regexp backward search
+C­Alt­% : regexp replace
+^ begin of line
+$ end of line
+. match single character
+.* match 0 or more characters
+\< match beginning of word
+\> match end of word
+[] match symbols within braces
+\s match whitespace
+\S match non­whitespace
+\d match digit
+\D match non­digit
+\w match char (a­zA­Z0­9_)
+\W match non­char
+
+--(window management)
+C­x 2 : Split window horizontally
+C­x 3 : Split window vertically
+C­x 1 : Delete all windows except current
+C­x 0 : Delete current window
+C­x o : switch window
+
+--(generic code)
+(setq variable−name new−value) : setting a variable
+
+--(commands)
+(setq auto−mode−alist (cons '("README" . text−mode) auto−mode−alist)) :
+file association : tell emacs to enter in text-mode when oppening files named README
+
+--(extensions)
+xcscope.el -> cscope extension
+auto-complete suite -> code auto-completion
+
+--(aliases / .bashrc stuff)
+
+if $(ps -e | grep $PPID | grep emacs) 

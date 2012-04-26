@@ -1,0 +1,16 @@
+### linux-config tool ###
+
+objective is to create a backup environment for configuration files that:
+- is incremental
+- can be easily deployed (new workstation or VM)
+- can gather changes and do the backup
+
+--(TODO)
+- create sections (emacs, bash, etc)
+- choice in the granularity of the actions (all/one section/one file)
+- automatize backup with cron
+- use database
+- install/uninstall/backup
+- for install, backup previous files
+
+

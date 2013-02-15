@@ -1,0 +1,20 @@
+### g-aubertin bash configuration ###
+
+# to be added in the .bashrc:
+# if [ -f ~/.bash_g-aubertin ]; then
+#     . ~/.bash_g-aubertin
+# fi
+
+export PATH=~/bin:$PATH
+
+# emacs window mode
+em()
+{
+emacs $1 $2 $3 $4  2> /dev/null &
+}
+
+# emacs console mode
+ec()
+{
+emacs $1 $2 $3 $4 -nw
+}

@@ -32,7 +32,6 @@ C-x k : kill current buffer
 C-x o : switch buffer
 M-x term : start a term (shell) of your choice in the buffer
 
-
 --(regexp) 
 C­Alt­s : regexp forward search
 C­Alt­r : regexp backward search
@@ -57,6 +56,12 @@ C­x 3 : Split window vertically
 C­x 1 : Delete all windows except current
 C­x 0 : Delete current window
 C­x o : switch window
+
+--(etags)
+M-. : find a tag
+M-* : jump back
+M-x tags-search : string research in the tag file (grep-like)
+M-x list-tags : list all tags defined in source file
 
 --(generic code)
 (setq variable−name new−value) : setting a variable

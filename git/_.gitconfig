@@ -1,0 +1,18 @@
+[user]
+	name = Guillaume Aubertin
+	email = guillaume.aubertin@gmail.com
+
+[core]
+	editor = emacs -nw
+
+[color]
+        ui = auto
+
+[alias]
+	st = status
+	co = checkout
+	lol = log --oneline
+	br = branch -v
+
+[pack]
+    threads = 0                         # Autodetect num threads.

@@ -1,0 +1,23 @@
+;; ##################################
+;; #### g-aubertin configuration ####
+;; ##################################
+
+;; ### disable vc-git stuff
+(remove-hook 'find-file-hooks 'vc-find-file-hook)
+
+;; k&r style for code indentation
+(add-hook 'c-mode-common-hook
+          (lambda ()
+            (c-set-style "k&r")
+            (setq c-basic-offset 8)))
+
+
+;; deactivate auto-backup (*~ files)
+(setq make-backup-files nil) 
+
+;; print line & column number
+(setq column-number-mode t)
+(setq line-number-mode t)
+
+;; usual c-x, c-c and c-v
+(cua-mode t)

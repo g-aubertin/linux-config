@@ -7,6 +7,7 @@ C-h v : describe variable (by its name)
 C-x c-e : evaluate the expression pointed by the cursor (the point)
 C-g : cancel current command in mini-buffer
 M-x menu-bar-open : open the menu bar
+(load "path & filename to the extra .emacs file")
 
 --(edition)
 C-_ : undo

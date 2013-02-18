@@ -26,6 +26,10 @@ M-g g : goto line
 M-u : changes following word to upper case
 M-l : changes following word to upper case
 
+--(Ibuffer)
+M-x ibu : show Ibuffer window
+h : show the help ( with most commands documented)
+
 --(buffers)
 C-x C-b : buffer list display in new buffer
 C-x k : kill current buffer

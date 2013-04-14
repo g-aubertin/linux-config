@@ -1,0 +1,11 @@
+### gnome shell modifications ###
+
+main directory: /usr/share/gnome-shell/
+
+top panel : theme/gnome-shell.css
+
+#panel {
+    background-color: black;
+    font-weight: normal; /* bold */
+    height: 1.2em;  /* 1.86em; */
+}

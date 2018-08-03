@@ -1,8 +1,8 @@
 ### g-aubertin bash configuration ###
 
 # to be added in the .bashrc:
-# if [ -f ~/.bash_g-aubertin ]; then
-#     . ~/.bash_g-aubertin
+# if [ -f ~/.bash_gaubertin ]; then
+#     . ~/.bash_gaubertin
 # fi
 
 export PATH=~/bin:$PATH

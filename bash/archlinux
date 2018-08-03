@@ -1,0 +1,2 @@
+# archlinux specific configuration
+export TERM=xterm

@@ -1,7 +1,6 @@
 ### install steps ###
 
 as root :
-
 pacstrap base base-devel
 pacman -S dialog wpa_supplicant
 useradd -m guillaume
@@ -9,7 +8,6 @@ passwd guillaume
 visudo
 
 as user :
-
 # gnome install
 pacman -S gnome gnome-extra gnome-tweaks gdm networkmanager network-manager-applet
 systemctl enable gdm
@@ -21,11 +19,22 @@ locale-gen
 # enable wireless network
 systemctl enable NetworkManager
 
-
 # base packages
-
 pacman -S terminator \
        git \
        tig \
        tree \
        emacs
+# yay
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+# fantome GTK theme
+git clone https://github.com/addy-dclxvi/gtk-theme-collections
+cd gtk-theme-collections
+mkdir ~/.themes
+cp -a * ~/.themes/
+
+# paper icons
+yay -S paper-icon-theme

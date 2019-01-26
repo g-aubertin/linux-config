@@ -1,0 +1,31 @@
+### install steps ###
+
+as root :
+
+pacstrap base base-devel
+pacman -S dialog wpa_supplicant
+useradd -m guillaume
+passwd guillaume
+visudo
+
+as user :
+
+# gnome install
+pacman -S gnome gnome-extra gnome-tweaks gdm networkmanager network-manager-applet
+systemctl enable gdm
+
+# languages
+locale -a
+locale-gen
+
+# enable wireless network
+systemctl enable NetworkManager
+
+
+# base packages
+
+pacman -S terminator \
+       git \
+       tig \
+       tree \
+       emacs

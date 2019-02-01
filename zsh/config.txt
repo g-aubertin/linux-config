@@ -1,0 +1,5 @@
+### notes
+
+to disable auto-completion :
+setopt noautomenu
+setopt nomenucomplete

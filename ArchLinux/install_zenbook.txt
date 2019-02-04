@@ -1,13 +1,13 @@
 ### install steps ###
 
-as root :
+## as root :
 pacstrap base base-devel
 pacman -S dialog wpa_supplicant
 useradd -m guillaume
 passwd guillaume
 visudo
 
-as user :
+## as user :
 # gnome install
 pacman -S gnome gnome-extra gnome-tweaks gdm networkmanager network-manager-applet
 systemctl enable gdm
@@ -38,3 +38,9 @@ cp -a * ~/.themes/
 
 # paper icons
 yay -S paper-icon-theme
+
+# roboto font
+yay -S ttf-google-fonts
+
+# powerline & powerline custom fonts
+pacman -S powerline powerline-fonts

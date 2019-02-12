@@ -24,7 +24,6 @@
     background_darkness = 0.9
     background_type = transparent
     cursor_color = "#aaaaaa"
-    cursor_shape = underline
     font = Noto Sans Mono 9
     foreground_color = "#d3d7cf"
     icon_bell = False
@@ -34,11 +33,11 @@
     use_system_font = False
     use_theme_colors = True
   [[usb-console]]
-    background_color = "#282828"
+    background_color = "#002b36"
     background_darkness = 0.9
     background_type = transparent
     cursor_color = "#aaaaaa"
     font = Noto Sans Mono 9
-    foreground_color = "#ebdbb2"
+    foreground_color = "#d3d7cf"
     show_titlebar = False
     use_system_font = False

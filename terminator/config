@@ -27,6 +27,19 @@
     font = Noto Sans Mono 9
     foreground_color = "#d3d7cf"
     icon_bell = False
+    palette = "#000000:#bc4747:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#babdb6:#d94343:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 50000
+    scrollbar_position = hidden
+    use_system_font = False
+    use_theme_colors = True
+  [[hi-dpi]]
+    background_color = "#002b36"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Noto Sans Mono 11
+    foreground_color = "#d3d7cf"
+    icon_bell = False
     palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#babdb6:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     scrollback_lines = 50000
     scrollbar_position = hidden

@@ -1,12 +1,8 @@
 [global_config]
-  borderless = True
-  handle_size = 6
-  hide_on_lose_focus = True
-  inactive_color_offset = 0.703703703704
-  suppress_multiple_term_dialog = True
-  title_hide_sizetext = True
-  title_inactive_bg_color = "#555753"
-  title_transmit_bg_color = "#b15555"
+  title_inactive_bg_color = "#37474f"
+  title_inactive_fg_color = "#eceff1"
+  title_transmit_bg_color = "#263238"
+  title_transmit_fg_color = "#eceff1"
 [keybindings]
 [layouts]
   [[default]]
@@ -20,37 +16,12 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#002b36"
-    background_darkness = 0.9
+    background_color = "#263238"
+    background_darkness = 0.91
     background_type = transparent
-    cursor_color = "#aaaaaa"
-    font = Noto Sans Mono 9
-    foreground_color = "#d3d7cf"
-    icon_bell = False
-    palette = "#000000:#bc4747:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#babdb6:#d94343:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
-    scrollback_lines = 50000
-    scrollbar_position = hidden
-    use_system_font = False
-    use_theme_colors = True
-  [[hi-dpi]]
-    background_color = "#002b36"
-    background_darkness = 0.9
-    background_type = transparent
-    cursor_color = "#aaaaaa"
-    font = Noto Sans Mono 11
-    foreground_color = "#d3d7cf"
-    icon_bell = False
-    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#babdb6:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
-    scrollback_lines = 50000
-    scrollbar_position = hidden
-    use_system_font = False
-    use_theme_colors = True
-  [[usb-console]]
-    background_color = "#002b36"
-    background_darkness = 0.9
-    background_type = transparent
-    cursor_color = "#aaaaaa"
-    font = Noto Sans Mono 9
-    foreground_color = "#d3d7cf"
+    cursor_color = "#eceff1"
+    font = Droid Sans Mono for Powerline 11
+    foreground_color = "#eceff1"
+    palette = "#263238:#ff9800:#8bc34a:#ffc107:#03a9f4:#e91e63:#009688:#ffffff:#37474f:#ffa74d:#9ccc65:#ffa000:#81d4fa:#ad1457:#26a69a:#ffffff"
     show_titlebar = False
     use_system_font = False

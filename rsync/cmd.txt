@@ -1,0 +1,9 @@
+
+# for backup over ssh on remote with rync server running :
+
+rsync -av <source> <server_addr>@::<rsync_server_directory> -e ssh
+
+# to exclude directories, use --exclude <dirname>
+# to be excluded :
+Downloads/
+.cache/

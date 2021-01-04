@@ -1,9 +1,24 @@
 [global_config]
-  title_inactive_bg_color = "#37474f"
-  title_inactive_fg_color = "#eceff1"
-  title_transmit_bg_color = "#263238"
-  title_transmit_fg_color = "#eceff1"
+  suppress_multiple_term_dialog = True
 [keybindings]
+  go_up = Menu
+  go_down = Menu
+  go_left = Menu
+  go_right = Menu
+[profiles]
+  [[default]]
+    background_color = "#263238"
+    background_darkness = 0.96
+    background_type = transparent
+    cursor_color = "#eceff1"
+    font = Droid Sans Mono for Powerline 11
+    foreground_color = "#eceff1"
+    show_titlebar = False
+    scrollback_lines = 5000
+    palette = "#263238:#ff9800:#8bc34a:#ffc107:#03a9f4:#e91e63:#009688:#cfd8dc:#37474f:#ffa74d:#9ccc65:#ffa000:#81d4fa:#ad1457:#26a69a:#eceff1"
+    use_system_font = False
+    use_theme_colors = True
+    bold_is_bright = True
 [layouts]
   [[default]]
     [[[child1]]]
@@ -14,14 +29,3 @@
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    background_color = "#263238"
-    background_darkness = 0.91
-    background_type = transparent
-    cursor_color = "#eceff1"
-    font = Droid Sans Mono for Powerline 11
-    foreground_color = "#eceff1"
-    palette = "#263238:#ff9800:#8bc34a:#ffc107:#03a9f4:#e91e63:#009688:#ffffff:#37474f:#ffa74d:#9ccc65:#ffa000:#81d4fa:#ad1457:#26a69a:#ffffff"
-    show_titlebar = False
-    use_system_font = False
